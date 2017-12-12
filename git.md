@@ -36,7 +36,7 @@ $ sudo git commit -m "First Commit"
 
 Then connect to your github account (just copy your repository url and add to end of command below)
 ```shell
-$ sudo git remote add origin <yout_github_repository_url>
+$ sudo git remote add origin <your_github_repository_url>
 ```
 > You will be asked for your github **username** and **password**. Please enter correctly.
 
@@ -49,4 +49,10 @@ $ sudo git push -u origin master
 > If you want to disconnect from your github account after you moved your works, please run
 > ```shell
 > $ sudo git remote remove origin
+> ```
+
+> **Note:**
+> If you made mistake (or want to replace with new one) in remote URL and want to re-add new URL, please run
+> ```shell
+> $ sudo git remote set-url origin <your_NEW_github_repository_url>
 > ```
